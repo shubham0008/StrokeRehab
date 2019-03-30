@@ -11,30 +11,32 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity" />
         <activity
-            android:name=".AppIntroActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
-
-        <activity
-            android:name=".LauncherActivity"
-            android:theme="@style/AppTheme.NoActionBar">
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".AppIntroActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".LauncherActivity"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".ChatActivity"
             android:label="@string/title_activity_chat"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".LoginActivity" />
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".SignActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".SignActivity" />
+        <activity
+            android:name=".GraphActivity"
+            android:label="@string/title_activity_graph"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
