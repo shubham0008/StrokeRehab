@@ -29,9 +29,9 @@ public class LoginActivity extends Activity {
         loginButton.setOnClickListener( new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Log.d( "asda", muserName.getText().toString() + "" + mPassWord.getText().toString() + "" );
-                if (muserName.getText().toString().equals( "7840844065" ) && mPassWord.getText().toString().equals( "1234" )) {
+                if (muserName.getText().toString().equals( "pat" ) && mPassWord.getText().toString().equals( "123" )) {
                     startActivity( new Intent( LoginActivity.this, MainActivity.class ) );
+                    finishAffinity();
                 } else {
                     Toast.makeText( LoginActivity.this, "Unable to Login", Toast.LENGTH_SHORT ).show();
                 }
