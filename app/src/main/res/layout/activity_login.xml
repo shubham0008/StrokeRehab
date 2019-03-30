@@ -72,19 +72,41 @@
         android:textColorHint="#fff"
         android:textSize="14dp" />
 
-
-    <Button
-        android:id="@+id/login_button"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/password_field"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_marginLeft="140dp"
-        android:layout_marginTop="20dp"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
         android:background="@drawable/ed_back"
         android:backgroundTint="#1d1e56"
         android:hint="Login"
         android:padding="15dp"
         android:textColorHint="#fff"
         android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/signin_button"
+            android:layout_width="0dp"
+            android:layout_below="@+id/login_button"
+        android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ed_back"
+        android:backgroundTint="#1d1e56"
+            android:layout_weight="1"
+            android:hint="SignUp?"
+        android:padding="15dp"
+        android:textColorHint="#fff"
+        android:textSize="14dp" />
+    </LinearLayout>
 </RelativeLayout>

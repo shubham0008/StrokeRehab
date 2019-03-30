@@ -14,11 +14,11 @@ public class LauncherActivity extends Activity {
             @Override
             public void run() {
                 try {
-                    sleep( 4000 );
+                    sleep( 2000 );
                 } catch (Exception e) {
                     e.printStackTrace();
                 } finally {
-                    Intent mainIntent = new Intent( LauncherActivity.this, LoginActivity.class );
+                    Intent mainIntent = new Intent( LauncherActivity.this, AppIntroActivity.class );
                     startActivity( mainIntent );
                 }
             }
