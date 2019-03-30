@@ -3,4 +3,6 @@
     <string name="title_activity_chat">LETS CHAT</string>
     <string name="title_activity_login">LOGIN</string>
     <string name="title_activity_sign_up">WELCOME! SIGN UP HERE</string>
+    <string name="title_activity_doc_dashboard"> DOCTOR DASHBOARD </string>
+    <string name="title_activity_graph"> GRAPH DISPLAY </string>
 </resources>
