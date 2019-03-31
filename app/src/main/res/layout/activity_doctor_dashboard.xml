@@ -37,7 +37,7 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="21dp"
         android:layout_marginTop="90dp"
-        android:src="@drawable/namo" />
+        android:src="@drawable/trump" />
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -53,7 +53,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:padding="5dp"
-            android:text="Dr. Yogi"
+            android:text="Dr. Trump"
             android:textSize="18dp"
             android:textStyle="bold" />
 
@@ -73,6 +73,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/tv_glove_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
@@ -106,7 +107,7 @@
             android:layout_height="wrap_content"
             android:layout_below="@+id/graph"
             android:padding="5dp"
-            android:text="View Patients' Progress  " />
+            android:text="View Patients' Progress" />
     </LinearLayout>
 
     <LinearLayout
@@ -158,4 +159,24 @@
             android:padding="5dp"
             android:text="View all patients " />
     </LinearLayout>
+
+    <SeekBar
+        android:id="@+id/sb_effort"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_glove_id"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:max="5" />
+
+    <TextView
+        android:id="@+id/tv_effort_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sb_effort"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:text="View Patients' Progress" />
+
 </RelativeLayout>
