@@ -9,6 +9,8 @@
         android:id="@+id/ll_pic"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
         android:orientation="vertical">
 
         <ImageView
@@ -16,6 +18,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_margin="5dp"
+            android:layout_gravity="center"
             android:src="@drawable/app_icon" />
 
         <ImageView
@@ -24,7 +27,8 @@
             android:layout_height="500dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="10dp"
-            android:src="@drawable/app_intro_pic2" />
+            android:src="@drawable/app_intro_pic2"
+            android:tint="#fff" />
     </LinearLayout>
 
     <RelativeLayout

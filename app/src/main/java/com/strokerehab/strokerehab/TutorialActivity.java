@@ -48,22 +48,5 @@ public class TutorialActivity extends YouTubeBaseActivity {
         } );
     }
 
-//    public void playVideo(final String videoId, YouTubePlayerView youTubePlayerView) {
-//        //initialize youtube player view
-//        youTubePlayerView.initialize( "AIzaSyCWUIM37X3lkI8hsOrozbU8asv6d6FaNwc",
-//                new YouTubePlayer.OnInitializedListener() {
-//                    @Override
-//                    public void onInitializationSuccess(YouTubePlayer.Provider provider,
-//                                                        YouTubePlayer youTubePlayer, boolean b) {
-//                        youTubePlayer.cueVideo( videoId );
-//                    }
-//
-//                    @Override
-//                    public void onInitializationFailure(YouTubePlayer.Provider provider,
-//                                                        YouTubeInitializationResult youTubeInitializationResult) {
-//
-//                    }
-//                } );
-//    }
 
 }
