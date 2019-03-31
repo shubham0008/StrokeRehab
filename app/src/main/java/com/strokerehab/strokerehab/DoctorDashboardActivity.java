@@ -5,12 +5,15 @@ import android.os.Bundle;
 import android.support.v7.widget.AppCompatTextView;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.LinearLayout;
 import android.widget.Toolbar;
 
 import java.util.ArrayList;
 
 public class DoctorDashboardActivity extends AppCompatActivity {
-
+    LinearLayout graphLL, chatLL, patientsLL;
+    // 95403
+    //  25118
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,6 +21,9 @@ public class DoctorDashboardActivity extends AppCompatActivity {
 
         centerTitle();
 
+        graphLL = findViewById(R.id.ll_real_time_graph);
+        chatLL = findViewById(R.id.ll_chat);
+        patientsLL = findViewById(R.id.ll_guide);
     }
 
     private void centerTitle() {
